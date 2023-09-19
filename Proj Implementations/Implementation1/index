@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Assignment 3 Website </title>
+        <link rel="stylesheet" href="SS2.css">
+    </head>
+
+    <body>
+      <div class="Main_box">
+        <div class="Headings" class="positioned">
+          <h1>Paul James</h1><h4><a href="https://github.com/nagrath85/nagrath85.github.io/blob/main/page2.html#HOME">home</a> <a href="https://github.com/nagrath85/nagrath85.github.io/blob/main/page2.html#NATURE">nature</a> <a href="https://github.com/nagrath85/nagrath85.github.io/blob/main/page2.html#URBAN">urban</a> <a href="https://github.com/nagrath85/nagrath85.github.io/blob/main/page2.html#BIO">bio</a> </h4>
+        </div>
+
+        <div class="images" class="positioned">
+          <img id="pier" src="http://csci571.com/hw/hw3/images/pier.jpg" alt="The pier" ><br />
+          <img id="road" src="http://csci571.com/hw/hw3/images/road.jpeg" alt="The road"><br />
+          <img id="lake" src="http://csci571.com/hw/hw3/images/lake.jpg" alt="The lake"><br />
+        </div>
+
+        <div class="Footers" class="positioned">
+          <h6 id="Credits"> &#169; 2023 by Paul James</h6><br />
+          <a href="https://www.facebook.com/"><img src="https://github.com/nagrath85/nagrath85.github.io/blob/main/facebook.png" alt="Facebook contact" width="15" height="15"> </a>&nbsp &nbsp
+          <a href="https://twitter.com/?lang=en"><img src="https://github.com/nagrath85/nagrath85.github.io/blob/main/twitter.png" alt="Twitter contact" width="15" height="15"> </a>&nbsp &nbsp
+          <a href="https://www.instagram.com/"><img src="https://github.com/nagrath85/nagrath85.github.io/blob/main/instagram.png" alt="Instagram contact" width="15" height="15"></a>
+        </div>
+      </div>
+    </body>
+</html>

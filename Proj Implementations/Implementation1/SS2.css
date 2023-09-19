@@ -1,0 +1,94 @@
+/*Some margin or padding is added by every browser,
+we can offset that in our style sheet to have complete control over the spacing of elements*/
+*{
+    margin:0;
+    padding:0;
+}
+.Main_box{
+    width:600px;
+    margin:auto;
+    
+}
+/*Highest in hierchy: font-family and color styles are not conflicting, 
+so priority should not interfere*/
+body{
+    font-family:"Bell MT";
+    color:black;
+    
+}
+a:link, a:visited, a:active{
+    color:grey;
+    text-decoration: none;
+}
+a:hover{
+   color:black;
+
+}
+/*Headings super class---> h1  and h4 specialized */
+.Headings{ 
+    width:260px;
+    height: 100px;
+    padding: 20px;
+    padding-top: 9px;
+    padding-bottom:1px;
+    padding-left:155px;
+    padding-right:100px;
+    border: 1.5px solid black;
+    margin-top:39px;
+    margin-left:39px;
+    
+}
+
+h1{
+    font-size:50px;
+    font-weight: 600;
+    padding-top:5px;
+    
+ }
+ h4{
+     font-style:italic;
+     font-weight:500;
+     font-size:14px;
+     word-spacing: 10px;
+     text-decoration: none;
+     padding-left:40px;
+ } 
+
+.images{
+    margin-top: 75px;
+}
+
+
+#pier{
+    width: 600px;
+    height:600px;
+    object-fit:cover;
+    
+}
+
+#road{
+    width: 600px;
+    height:600px;
+    object-fit:cover;
+    
+}
+#lake{
+    width: 600px;
+    height:600px;
+    object-fit:cover;
+    
+}
+
+h6{
+    font-style: italic;
+    font-weight:50;
+    font-size:2-px;
+}
+.Footers{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left:270px;
+}
+
+
+
