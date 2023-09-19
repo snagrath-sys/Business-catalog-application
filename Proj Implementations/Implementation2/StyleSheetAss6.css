@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+span{
+    color:red;
+}
+
+#heading{
+    bottom:100px;
+    left:100px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+}
+
+input[type=submit]{
+    background-color: rgb(96,130,182);
+    padding: 12px 20px;
+}
+
+input[type=reset]{
+    background-color: rgb(210, 154, 51);
+    padding: 12px 20px;
+}
+form{
+    color:rgb(96,130,182);
+}
